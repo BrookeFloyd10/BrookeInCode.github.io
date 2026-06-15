@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+
+    <header>
+        <img class="header-img" src="images/terminal2.png" alt="line terminal Coding Icon" />
+        <div class="header-text">
+            <h1>Brooke Floyd</h1>
+            <p>Partner. Parent. Developer in progress. Retired infant.</p>
+        </div>
+        <img class="header-img" src="images/code-window.png" alt="line Coding Icon" />
+
+    </header>
+
+    <main>
+        <section class="main-content-wrapper">
+
+            <div class="bio-card bg-pink">
+                <h2 class="card-heading">Get to Know Me</h2>
+                <p>Hi, I'm Brooke. I live in Kansas City with my husband, our son, a dog named Skittles, 
+                    and a cat named Harriet. After 15 years as a cosmetologist, I have added software 
+                    development to my skill set and daily life.</p>
+                <p>By day, I'm learning to code. By night, I'm... also usually learning to code, but with 
+                    occasional breaks for music, family, and pet-related responsibilities. I still work behind 
+                    the chair, so my career has evolved from fixing bad bangs to fixing bad bugs in JavaScript. 
+                    Turns out both require patience, creativity, and the ability to stay calm when something 
+                    unexpectedly breaks.</p>
+                <p>I'm passionate about learning new things, building useful projects, and embracing the 
+                    challenge of starting a new career path. Right now, that journey involves JavaScript, 
+                    plenty of curiosity, and more browser tabs than I'd care to count.</p>
+            </div>
+            <div class="skills-card bg-purple">
+                <h2 class="card-heading">My Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Description</th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Core focus of my current development learning. I use it to build interactive web projects and strengthen my understanding of web development concepts.</td>
+                            <td>Intermediate (Learning more by the day)</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Used for scripting and practice projects to strengthen programming fundamentals like logic, data structures, and problem solving.</td>
+                            <td>Intermediate (Learning)</td>
+                        </tr>
+                        <tr>
+                            <td>Communication & Collaboration</td>
+                            <td>Experienced working with clients and collaborating in team environments. Strong ability to listen, explain ideas clearly, and adapt communication style based on audience and context.</td>
+                            <td>Advanced (Transferable)</td>
+                        </tr>
+                        <tr>
+                            <td>Creativity & Performance</td>
+                            <td>Background in folk music and juggling, building timing, focus, adaptability, and comfort performing under pressure.</td>
+                            <td>Advanced (Real Life / Transferable)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="form-card bg-pink">
+                <h2 class="card-heading">Get In Touch</h2>
+                <form class="contact-form" action="/submit" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="contact-message">Message:</label>
+                    <textarea
+                        id="contact-message"
+                        name="message"
+                        rows="5"
+                        cols="50"
+                        placeholder="Drop me a line..."
+                        required>
+                    </textarea>
+
+                    <button class="btn-blue" type="submit">Let's Connect</button>
+                </form>
+            </div>
+            <div>
+                    <img id="base-photo" src="images/02kc-skyline-drawing.png" width="90%" alt="line drawing of Kansas City MO" />
+
+           </div>
+        </section>
+
+        <aside>
+            <img id="aside-photo" src="images/Brooke.jpg" width="90%" alt="A photo of me" class="profile-photo" />
+
+           <div class="sidebar-card fixed-height bg-translucent-pink">
+             <h2 class="card-heading">Fun Facts</h2>
+               <ul>
+                 <li id="fun-fact"></li>
+               </ul>
+           </div>
+
+           <div class="sidebar-card bg-translucent-teal">
+             <h2 class="card-heading">Currently Working On</h2>
+               <ol class="working-list"> 
+                 <li>Building interactive features with JavaScript</li>
+                 <li>Practicing responsive layouts with Flexbox</li>
+                 <li>Strengthening Python fundamentals</li>
+              </ol>
+           </div>
+          
+           <div class="sidebar-card bg-translucent-indigo">
+             <h2 class="card-heading">My Repositories</h2>
+               <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/GitHub_Invertocat_Black.png" alt="Github Logo Link to repositories" />
+               </a>
+          </div>
+
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BrookeFloyd inc.</p>
+        <a href="https://www.flaticon.com/free-icons/html" target="_blank" title="html icons">icon attribute: Freepik - Flaticon    
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
