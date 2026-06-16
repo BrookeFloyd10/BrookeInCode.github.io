@@ -284,7 +284,9 @@ footer {
   border: none;
 }
 
-
+.subtext-break {
+  display: inline;
+}
 
 /* MEDIA QUERY */
 
@@ -293,6 +295,12 @@ footer {
     font-size: 2.8vw;
     margin: 0;
   }
+
+  .subtext-break {
+    display: block;
+    margin-top: 3px;
+  }
+}
   
   main {
     flex-direction:column;
