@@ -284,9 +284,7 @@ footer {
   border: none;
 }
 
-.subtext-break {
-  display: inline;
-}
+
 
 /* MEDIA QUERY */
 
@@ -295,12 +293,6 @@ footer {
     font-size: 2.8vw;
     margin: 0;
   }
-
-  .subtext-break {
-    display: block;
-    margin-top: 3px;
-  }
-}
   
   main {
     flex-direction:column;
@@ -341,6 +333,11 @@ footer {
 
  header {
   border-radius: 8px;
+ }
+
+ .header-text p {
+  font-size: 2.4vw;
+  padding-top: 0.08vw;
  }
 
   .header-text{
