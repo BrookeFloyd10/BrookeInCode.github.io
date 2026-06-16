@@ -12,7 +12,7 @@ let funFactsArr = [
   "I have been skydiving.",
 
   "<p>Meet Harriet!</p><br>" +
-  "<img src='images/Harriet.jpg' width='100%' alt='My cat Harriet snoozing while cuddling a PlayStation controller.'/><br>" + 
+  "<img src='images/Harriet.jpg' width='65%' alt='My cat Harriet snoozing while cuddling a PlayStation controller.'/><br>" + 
   "<p>She was named after Harriet the Spy.</p>",
 
   "I am a video game enthusiast and enjoy exploring different genres.",
